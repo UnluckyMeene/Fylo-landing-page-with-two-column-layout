@@ -134,7 +134,11 @@ h1, h2, h3 {
         color: var(--dark-blue);
     }
     
-    #testimonial .card-body>footer {font-size: 14px;}
+    #testimonial .card-body>footer {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
     #testimonial .card-body>footer span,
     #testimonial .card-body>footer strong {
         margin-left: 10px;
@@ -349,7 +353,14 @@ h1, h2, h3 {
         padding-right: 20px;
     }
     
-    #testimonial .card-body>footer {font-size: 14px;}
+    #testimonial .card-body>footer {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #testimonial .card-body>footer span { font-size: 10px;}
+    
     #testimonial .card-body>footer span,
     #testimonial .card-body>footer strong {
         margin-left: 10px;
