@@ -28,7 +28,8 @@ h1, h2, h3 {
 }
 /* end of Typography*/
 
-@media (min-width: 992px){
+/*DESKTOP*/
+@media (min-width: 1200px){
     nav {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -51,7 +52,7 @@ h1, h2, h3 {
     }
     
     .custom-container {
-        max-width: 70%;
+        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -224,7 +225,8 @@ h1, h2, h3 {
     }
 }
 
-@media (max-width: 991.98px){    
+/*MOBILE*/
+@media (min-width: 320px) and (max-width: 767.98px) {    
     nav {
         margin-top: 20px;
         margin-bottom: 50px;
